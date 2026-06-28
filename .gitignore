@@ -1,0 +1,24 @@
+# Data (large Kaggle CSVs — not committed)
+/data
+
+# Model checkpoints & artifacts (keep the dir, ignore contents)
+/checkpoints/*
+!/checkpoints/.gitkeep
+/submissions
+/checkpoints
+
+# Embeddings (GloVe, etc.)
+*.txt.gz
+glove*/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
