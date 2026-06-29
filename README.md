@@ -2,6 +2,8 @@
 
 Multi-label классификация комментариев по типу токсичности. 
 
+hf space: `https://huggingface.co/spaces/kratos0-f/toxic-comment-classifier`
+
 ## Задача
 
 По мотивам [Jigsaw Toxic Comment Classification Challenge](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge).
