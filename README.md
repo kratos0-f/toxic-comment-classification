@@ -34,17 +34,16 @@ Multi-label классификация комментариев по типу т
 
 ```
 toxic-comment-classification/
-├── data/                  # CSV с Kaggle + GloVe (в .gitignore)
+├── data/                 
 │   ├── train.csv
 │   ├── test.csv
 │   └── glove/glove.6B.100d.txt
 ├── notebooks/
-│   ├── 01-eda.ipynb       # анализ + чистка текста -> *_clean.csv
-│   ├── 02-bilstm.ipynb    # BiLSTM + предобученные GloVe (с нуля)
-│   └── 03-bert.ipynb      # дообучение DistilBERT
-├── checkpoints/           # веса лучших моделей (в .gitignore)
-├── submissions/           # сабмиты в формате Kaggle
-├── src/                   # вспомогательные модули
+│   ├── 01-eda.ipynb      
+│   ├── 02-bilstm.ipynb    
+│   └── 03-bert.ipynb      
+├── checkpoints/           
+├── submissions/           
 └── requirements.txt
 ```
 
